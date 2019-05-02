@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+    <ScrollView>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+
+            <Label Text="Name"></Label>
+            <Entry x:Name="entry" />
+            <Label Text="Phone Number"></Label>
+            <Entry x:Name="entry_phone" />
+            <Label Text="Car Number"></Label>
+            <Entry x:Name="entry_car" />
+            <Label Text="Date"></Label>
+            <Entry x:Name="entry_date" />
+            <Label Text="How many hours do you want to park"></Label>
+            <Entry x:Name="entry_hours" />
+            <Button x:Name="button" Text="Submit"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
